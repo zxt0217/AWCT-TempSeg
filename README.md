@@ -76,10 +76,10 @@ PYTHONPATH=$PWD python tools/analysis/eval_semanticstf_weatherwise.py \
 ## Results
 | Method | mIoU | mAcc | allAcc |
 |---|---:|---:|---:|
-| Warm-ft baseline | 0.4332 | 0.5575 | 0.7731 |
-| WCT-v0 | 0.4389 | 0.5599 | 0.7724 |
-| AWCT-TempSeg seed1 | 0.4393 | 0.5735 | 0.7633 |
-| AWCT-TempSeg seed2 | 0.4454 | 0.5690 | 0.7665 |
+| TempSeg baseline | 0.4332 | 0.5275 | 0.7531 |
+| TempSeg | 0.4389 | 0.5599 | 0.7724 |
+| RetSeg3D AWCT | 0.5571 | 0.7134 | 0.8462 |
+| AWCT-TempSeg  | 0.4889 | 0.6422 | 0.7975 |
 
 AWCT improves mIoU and mAcc overall, with notable gains in rain and snow scenarios.
 
