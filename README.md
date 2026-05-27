@@ -3,6 +3,12 @@ Research Release: v0.1.0
 
 Adaptive Weather-Curriculum Temporal Segmentation for Adverse-Weather LiDAR Point Clouds.
 
+If you use this code, please cite:
+
+AWCT-TempSeg: Validation-Guided Adaptive Weather-Curriculum Learning for Robust Temporal LiDAR Semantic Segmentation.
+DOI: https://doi.org/10.5072/zenodo.505066
+Code: https://github.com/zxft0217/AWCT-TempSeg
+
 ## Introduction
 AWCT-TempSeg is a temporal LiDAR semantic segmentation framework for adverse-weather scenarios. It keeps the segmentation backbone unchanged and improves robustness through a validation-guided adaptive weather curriculum during warm-start fine-tuning.
 
