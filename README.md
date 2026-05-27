@@ -77,7 +77,7 @@ PYTHONPATH=$PWD python tools/analysis/eval_semanticstf_weatherwise.py \
 | Method | mIoU | mAcc | allAcc |
 |---|---:|---:|---:|
 | TempSeg baseline | 0.4332 | 0.5275 | 0.7531 |
-| TempSeg | 0.4389 | 0.5599 | 0.7724 |
+| TempSeg loss-adaptive | 0.4389 | 0.5599 | 0.7724 |
 | RetSeg3D AWCT | 0.5571 | 0.7134 | 0.8462 |
 | AWCT-TempSeg  | 0.4889 | 0.6422 | 0.7975 |
 
