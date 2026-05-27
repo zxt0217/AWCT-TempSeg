@@ -1,0 +1,25 @@
+# Install a matching PyTorch/CUDA build first.
+addict
+einops
+h5py
+matplotlib
+numpy
+open3d
+peft
+plyfile
+pyyaml
+regex
+scipy
+tensorboard
+tensorboardx
+termcolor
+timm
+tqdm
+wandb
+
+# Geometry / sparse deps (install wheels matching your torch/cuda):
+# torch-scatter
+# torch-cluster
+# torch-sparse
+# torch-geometric
+# spconv-cu124
